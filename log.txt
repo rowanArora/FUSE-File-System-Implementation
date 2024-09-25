@@ -1,0 +1,126 @@
+'bitmap.h' -> 'testdir/bitmap.h'
+'fs_ctx.h' -> 'testdir/fs_ctx.h'
+'helper_functions.h' -> 'testdir/helper_functions.h'
+'map.h' -> 'testdir/map.h'
+'options.h' -> 'testdir/options.h'
+'util.h' -> 'testdir/util.h'
+'vsfs.h' -> 'testdir/vsfs.h'
+'bitmap.c' -> 'testdir/bitmap.c'
+'fs_ctx.c' -> 'testdir/fs_ctx.c'
+'helper_functions.c' -> 'testdir/helper_functions.c'
+'map.c' -> 'testdir/map.c'
+'mkfs.c' -> 'testdir/mkfs.c'
+'options.c' -> 'testdir/options.c'
+'vsfs.c' -> 'testdir/vsfs.c'
+'Makefile' -> 'testdir/Makefile'
+run_dir is ./testdir, result dir is ./results, mntpoint is /tmp/aroraa39-vsfstest
+mkdir: /tmp/aroraa39-vsfstest
+Submission constructor: src_path ./testdir, out_path ./results
+make .
+make .
+setup_test for easy_mount, using vsfs-empty.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-empty.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for easy_mount
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for test_statvfs, using vsfs-empty.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-empty.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for test_statvfs
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for accumulated_getattr_score, using vsfs-manysizes.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-manysizes.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for accumulated_getattr_score
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for accumulated_utimens_score, using vsfs-42file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-42file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for accumulated_utimens_score
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for readdir_test--vsfs-1file.disk, using vsfs-1file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-1file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for readdir_test--vsfs-1file.disk
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for readdir_test--vsfs-3file.disk, using vsfs-3file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-3file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for readdir_test--vsfs-3file.disk
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for readdir_test--vsfs-42file.disk, using vsfs-42file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-42file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for readdir_test--vsfs-42file.disk
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for readdir_test--vsfs-deleted.disk, using vsfs-deleted.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-deleted.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for readdir_test--vsfs-deleted.disk
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for readdir_test--vsfs-many.disk, using vsfs-many.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-many.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for readdir_test--vsfs-many.disk
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for create_one_empty, using vsfs-empty.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-empty.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for create_one_empty
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for create_many_files--15, using vsfs-empty2.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-empty2.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for create_many_files--15
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for create_many_files--42, using vsfs-empty2.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-empty2.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for create_many_files--42
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for create_many_files--128, using vsfs-empty2.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-empty2.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for create_many_files--128
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for read_tiny_file, using vsfs-1file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-1file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for read_tiny_file
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for read_small_file, using vsfs-3file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-3file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for read_small_file
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for read_large_file, using vsfs-3file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-3file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for read_large_file
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for truncate_bigger--4096, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for truncate_bigger--4096
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for truncate_bigger--5440, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for truncate_bigger--5440
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for truncate_bigger--8192, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for truncate_bigger--8192
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for truncate_bigger--32768, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for truncate_bigger--32768
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for truncate_max, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for truncate_max
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for truncate_smaller--16384, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for truncate_smaller--16384
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for truncate_smaller--0, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for truncate_smaller--0
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for truncate_smaller--32768, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for truncate_smaller--32768
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for truncate_smaller--20480, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for truncate_smaller--20480
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for truncate_smaller--512, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for truncate_smaller--512
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for overwrite_existing--shake-short.txt, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for overwrite_existing--shake-short.txt
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for append_existing--onefile.txt, using vsfs-1file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-1file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for append_existing--onefile.txt
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for append_empty, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for append_empty
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for write_extend, using vsfs-1file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-1file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for write_extend
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for overwrite_existing--shake-med.txt, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for overwrite_existing--shake-med.txt
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for append_existing--shake-med.txt, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for append_existing--shake-med.txt
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for unlink_file--truncate_me, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for unlink_file--truncate_me
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for unlink_file--shake-short.txt, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for unlink_file--shake-short.txt
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+setup_test for unlink_file--shake-med.txt, using vsfs-4file.disk.
+Copying /u/csc369h/fall/pub/a4/images/vsfs-4file.disk to /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_ for unlink_file--shake-med.txt
+Attempting to mount fuse filesystem at /tmp/aroraa39-vsfstest with image /h/u11/c1/00/aroraa39/csc369/aroraa39/A4/testdir/_img_.
+make clean.

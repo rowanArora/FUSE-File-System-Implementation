@@ -1,0 +1,6 @@
+vsfs.c: In function ‘vsfs_write’:
+vsfs.c:826:45: error: ‘size_write’ undeclared (first use in this function)
+  826 |                 memcpy(write_location, buf, size_write);
+      |                                             ^~~~~~~~~~
+vsfs.c:826:45: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Makefile:34: vsfs.o] Error 1
